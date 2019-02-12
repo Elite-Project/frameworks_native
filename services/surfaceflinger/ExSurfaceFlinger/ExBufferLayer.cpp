@@ -35,8 +35,8 @@
 
 #include <ui/GraphicBuffer.h>
 #include <gralloc_priv.h>
-#include <qdMetaData.h>
 #ifdef USE_COLOR_METADATA
+#include "qdMetaData.h"
 #include <color_metadata.h>
 #endif
 
